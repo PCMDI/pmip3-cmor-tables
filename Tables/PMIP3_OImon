@@ -29,24 +29,6 @@ expt_id_ok: '1 percent per year CO2' '1pctCO2'
 !
 ! PMIP3 specific experiments
 !
-! Last interglacial
-! https://pmip3.lsce.ipsl.fr/wiki/doku.php/pmip3:design:li:final
-expt_id_ok: 'last interglacial 0ka' 'LastInt0'
-expt_id_ok: 'last interglacial 6ka' 'LastInt6'
-expt_id_ok: 'last interglacial 125ka' 'lastInt125'
-expt_id_ok: 'last interglacial 128ka' 'lastInt128'
-expt_id_ok: 'last interglacial 130ka' 'lastInt130'
-!
-! PlioMIP
-! https://pmip3.lsce.ipsl.fr/wiki/doku.php/pmip3:design:plio:index
-! http://geology.er.usgs.gov/eespteam/prism/prism_pliomip.html
-expt_id_ok: 'PlioMIP pre-industrial control Experiment 1 (AGCM)' 'PlioExp1ctrl'
-expt_id_ok: 'PlioMIP pre-industrial control Experiment 2 (AOGCM)' 'PlioExp2ctrl'
-expt_id_ok: 'mid-Pliocene Experiment 1 (AGCM), preferred L/S mask' 'PlioExp1p'
-expt_id_ok: 'mid-Pliocene Experiment 1 (AGCM), alternate L/S mask' 'PlioExp1a'
-expt_id_ok: 'mid-Pliocene Experiment 2 (AOGCM), preferred L/S mask' 'PlioExp2p'
-expt_id_ok: 'mid-Pliocene Experiment 2 (AOGCM), alternate L/S mask' 'PlioExp2a'
-
 
 approx_interval:  30.000000     ! approximate spacing between successive time
                           !   samples (in units of the output time 
