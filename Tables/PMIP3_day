@@ -6,7 +6,7 @@ frequency: day
 cmor_version: 2.6 ! minimum version of CMOR that can read this table
 cf_version:   1.4         ! version of CF that output conforms to
 project_id:   PMIP3  ! project id
-table_date:   14 December 2011 ! date this table was constructed
+table_date:   17 September 2012 ! date this table was constructed
 
 missing_value: 1.e20      ! value used to indicate a missing value
                           !   in arrays output by netCDF as 32-bit IEEE 
@@ -29,6 +29,15 @@ expt_id_ok: '1 percent per year CO2' '1pctCO2'
 !
 ! PMIP3 specific experiments
 !
+! PlioMIP
+! https://wiki.lsce.ipsl.fr/pmip3/doku.php/pmip3:design:plio:index
+! http://geology.er.usgs.gov/eespteam/prism/prism_pliomip.html
+expt_id_ok: 'PlioMIP pre-industrial control Experiment 1 (AGCM)' 'PlioExp1ctrl'
+expt_id_ok: 'PlioMIP pre-industrial control Experiment 2 (AOGCM)' 'PlioExp2ctrl'
+expt_id_ok: 'mid-Pliocene Experiment 1 (AGCM), preferred L/S mask' 'PlioExp1p'
+expt_id_ok: 'mid-Pliocene Experiment 1 (AGCM), alternate L/S mask' 'PlioExp1a'
+expt_id_ok: 'mid-Pliocene Experiment 2 (AOGCM), preferred L/S mask' 'PlioExp2p'
+expt_id_ok: 'mid-Pliocene Experiment 2 (AOGCM), alternate L/S mask' 'PlioExp2a'
 
 
 approx_interval:  1.000000     ! approximate spacing between successive time
